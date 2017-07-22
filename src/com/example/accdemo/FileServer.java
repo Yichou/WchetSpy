@@ -27,8 +27,8 @@ public class FileServer {
 	
 	private static final String PREFIX = "--", LINE_END = "\r\n";
 	static final String CHARSET = "UTF-8";
-	static final String HOST 	= "http://edroid.cn/";
-	static final String URL 	= HOST + "/apkhooker/api/upload.php";
+	static final String HOST 	= your server;
+	static final String URL 	= your server;
 	
 
 	private static void writeField(PrintWriter writer, String bund, String k, Object v) {
